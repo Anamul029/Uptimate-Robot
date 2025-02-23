@@ -1,4 +1,6 @@
 import Banner from "./assets/components/Banner/Banner"
+import Logo from "./assets/components/Logo/Logo"
+import Monitoring from "./assets/components/Monitoring/Monitoring"
 import NavBar from "./assets/components/NavBar/NavBar"
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <>
       <NavBar></NavBar>
       <Banner></Banner>
+      <Logo></Logo>
+      <Monitoring></Monitoring>
     </>
   )
 }
