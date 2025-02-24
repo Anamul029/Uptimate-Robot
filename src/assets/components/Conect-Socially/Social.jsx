@@ -17,39 +17,48 @@ const Social = () => {
 
         {
             image: < MdMarkEmailRead key={1} className='mx-auto' />,
-            text: "will be"
+            text: "Email is the most popular",
+            name: "Email"
         },
         {
             image: <MdOutlineSms key={2} className='mx-auto' />,
-            text: "will be"
+            text: "Get alerted instantly by SMS",
+            name: "SMS"
         },
         {
             image: <VscCallOutgoing key={3} className='mx-auto' />,
-            text: "will be"
+            text: "Get an automated voice call",
+            name: "CALL"
         },
         {
             image: <img key={4} className='h-15 w-15 mx-auto' src={image4} alt="" />,
-            text: "will be"
+            text: "Slack messages are a great way to inform the entire team!",
+            name: "slack"
         },
         {
             image: <img key={5} className='h-15 w-15 mx-auto' src={image5} alt="" />,
-            text: "will be"
+            text: "Integrate your Zapier account to get alerted right away.",
+            name: "Zapier"
         },
         {
             image: <img key={6} className='h-15 w-15 mx-auto' src={image6} alt="" />,
-            text: "will be"
+            text: "Telegram messages are great to get quickly alerted.",
+            name: "Telegram"
         },
         {
             image: <FaSteamSymbol key={7} className='mx-auto' />,
-            text: "will be"
+            text: "For advanced alerting you can setup custom webhooks to your specific system.",
+            name: "webhooks"
         },
         {
             image: <img key={8} className='h-15 w-15 mx-auto' src={image8} alt="" />,
-            text: "will be"
+            text: "Get important monitor status updates in your Discord messages.",
+            name: "Discord"
         },
         {
             image: <img key={9} className='h-15 w-15 mx-auto' src={image9} alt="" />,
-            text: "will be"
+            text: "Get notifications inside your MS Teams app to alert everyone in the group.",
+            name: "Teams"
         },
 
     ]
@@ -68,8 +77,13 @@ const Social = () => {
                             icons.map((icon, index) => {
                                 return <div key={index} className='group'>
 
-                                    <div className="group-hover:hidden">{icon.image}</div>
-                                    <div className="hidden group-hover:block">{icon.text}</div>
+                                    <div className="group-hover:hidden space-y-2">
+                                        {icon.image}
+                                        <p className='text-sm font-bold text-center'>
+                                            {icon.name}
+                                        </p>
+                                    </div>
+                                    <div className="hidden group-hover:block bg-slate-600 rounded-md  text-sm px-4 py-2 text-white">{icon.text}</div>
 
                                 </div>
                             })
