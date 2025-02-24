@@ -7,7 +7,6 @@ import image9 from '../../icons/icons8-teams-144.png'
 import { MdMarkEmailRead, MdOutlineSms } from 'react-icons/md'
 import { VscCallOutgoing } from 'react-icons/vsc'
 import { FaSteamSymbol } from 'react-icons/fa'
-import { useState } from 'react'
 
 const Social = () => {
 
@@ -63,9 +62,8 @@ const Social = () => {
 
     ]
 
-
     return (
-        <section className="relative max-w-[1900px] mx-auto py-[10%] my-16 bg-[#131a26] text-white">
+        <section className="relative max-w-[1900px] mx-auto py-[10%] mt-16 bg-[#131a26] text-white">
 
             <div className=' lg:ml-[15vw]'>
                 <div className='grid grid-cols-2 gap-[2%] items-center'>
