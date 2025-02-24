@@ -1,3 +1,4 @@
+import AdcancedFeatured from "./assets/components/AdvancedFeatured/AdvancedFeatured"
 import Banner from "./assets/components/Banner/Banner"
 import Logo from "./assets/components/Logo/Logo"
 import Monitoring from "./assets/components/Monitoring/Monitoring"
@@ -11,6 +12,7 @@ function App() {
       <Banner></Banner>
       <Logo></Logo>
       <Monitoring></Monitoring>
+      <AdcancedFeatured></AdcancedFeatured>
     </>
   )
 }
