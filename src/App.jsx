@@ -6,6 +6,7 @@ import NavBar from "./assets/components/NavBar/NavBar"
 import Social from '../src/assets/components/Conect-Socially/Social'
 import Testimonials from "./assets/components/testimonials/Testimonials"
 import MobileShow from "./assets/components/mobile show/MobileShow"
+import Pricing from "./assets/components/Pricing/Pricing"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Social />
       <MobileShow />
       <Testimonials />
+      <Pricing/>
     </>
   )
 }
