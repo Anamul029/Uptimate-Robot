@@ -7,6 +7,8 @@ import Social from '../src/assets/components/Conect-Socially/Social'
 import Testimonials from "./assets/components/testimonials/Testimonials"
 import MobileShow from "./assets/components/mobile show/MobileShow"
 import Pricing from "./assets/components/Pricing/Pricing"
+import FreeAccount from "./assets/components/FreeAccount/FreeAccount"
+import Footer from "./assets/components/Footer/Footer"
 
 function App() {
 
@@ -21,6 +23,8 @@ function App() {
       <MobileShow />
       <Testimonials />
       <Pricing/>
+      <FreeAccount/>
+      <Footer/>
     </>
   )
 }
