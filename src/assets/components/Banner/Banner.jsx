@@ -1,15 +1,15 @@
 import banner from '../../images/Screenshot (511).png'
 const Banner = () => {
     return (
-        <div className="bg-[#131a26]  max-w-[1900px] mx-auto  px-[10%]">
+        <div className="bg-[#131a26]  max-w-[1900px] max-h-screen mx-auto  px-[10%]">
 
             <div className="  mx-auto">
                 <div
                     className="relative  bg-cover bg-center bg-no-repeat"
                 >
-                    <div
+                    {/* <div
                         className="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
-                    ></div>
+                    ></div> */}
 
                     <div className="flex flex-col md:flex-row items-center">
                         <div
