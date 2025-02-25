@@ -66,10 +66,10 @@ const Social = () => {
         <section className="relative max-w-[1900px] mx-auto py-[10%] mt-16 bg-[#131a26] text-white">
 
             <div className=' lg:ml-[15vw]'>
-                <div className='grid grid-cols-2 gap-[2%] items-center'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-[2%] items-center'>
                     {/* social icon grid */}
 
-                    <div className="grid grid-cols-3 gap-[7vh] text-5xl">
+                    <div className="grid order-2 lg:order-1  grid-cols-3 gap-[7vh] text-5xl">
 
                         {
                             icons.map((icon, index) => {
@@ -91,9 +91,9 @@ const Social = () => {
 
                     {/* text content  */}
 
-                    <div className='flex flex-col gap-[3vh] justify-start'>
+                    <div className='order-1 lg:order-2 flex flex-col gap-[3vh] mx-auto lg:justify-start '>
                         {/* title  */}
-                        <h2 className='text-4xl font-semibold leading-13'>Downtime <br /> happens. <br />
+                        <h2 className='text-4xl text-center lg:text-left font-semibold leading-13'>Downtime  happens. <br />
                             <span className='text-[#3bd671]'>Get notified!</span>
                         </h2>
                         {/* description */}
@@ -108,7 +108,7 @@ const Social = () => {
 
             {/* overlay green  */}
 
-            <div className='absolute top-0 right-0 h-full w-1/7 bg-[#3bd671] rounded-l-full rounded-[100%]'>
+            <div className='absolute hidden lg:block top-0 right-0 h-full w-1/7 bg-[#3bd671] rounded-l-full rounded-[100%]'>
             </div>
         </section >
     );

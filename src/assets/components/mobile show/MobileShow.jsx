@@ -10,7 +10,7 @@ const MobileShow = () => {
             <section className="relative max-w-[1900px] px-[10%] mx-auto md:flex flex-col lg:flex-row items-center justify-between min-h-screen">
 
                 <div className="w-full md:w-1/2 flex justify-center">
-                    <div className="absolute top-[8vw] w-[500px] h-[500px] bg-[#3bd671] rounded-full"></div>
+                    <div className="absolute top-[8vw] lg:w-[500px] lg:h-[500px] bg-[#3bd671] rounded-full"></div>
                     <img src={uptimeMobile} data-aos="fade-up" alt="Monitoring App" className="relative z-10 w-[90%]" />
                 </div>
 
