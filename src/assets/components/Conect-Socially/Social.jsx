@@ -93,7 +93,7 @@ const Social = () => {
 
                     <div className='order-1 lg:order-2 flex flex-col gap-[3vh] mx-auto lg:justify-start '>
                         {/* title  */}
-                        <h2 className='text-4xl text-center lg:text-left font-semibold leading-13'>Downtime  happens. <br />
+                        <h2 className='text-4xl text-center lg:text-left font-semibold leading-13'>Downtime  <br /> happens. <br />
                             <span className='text-[#3bd671]'>Get notified!</span>
                         </h2>
                         {/* description */}
