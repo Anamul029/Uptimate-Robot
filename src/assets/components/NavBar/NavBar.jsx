@@ -33,9 +33,9 @@ const NavBar = () => {
                         {/* right side */}
                         <div className="flex items-center gap-4">
                             <div className="sm:flex sm:gap-4">
-                                <a className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm" href="#">Login</a>
+                                <a className="rounded-4xl bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm" href="#">Login</a>
                                 <div className="hidden sm:flex">
-                                    <a className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600" href="#">Register for free</a>
+                                    <a className=" bg-[#3bd671] px-5 py-2.5 text-sm font-medium rounded-4xl text-white hover:bg-green-600" href="#">Register for free</a>
                                 </div>
                             </div>
 
