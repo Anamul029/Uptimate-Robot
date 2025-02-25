@@ -24,7 +24,54 @@ const NavBar = () => {
                                         <li><a className="transition hover:text-gray-400" href="#">Status Page</a></li>
                                         <li><a className="transition hover:text-gray-400" href="#">Pricing</a></li>
                                         <li><a className="transition hover:text-gray-400" href="#">Enterprise</a></li>
-                                        <li><a className="transition hover:text-gray-400" href="#">Resources</a></li>
+                                        {/* <li><a className="transition hover:text-gray-400" href="#">Resources</a></li> */}
+                                        <div className="relative group">
+                                            <summary style={{ listStyle: "none" }} className="cursor-pointer text-white hover:text-blue-600">
+                                                Resourses
+                                            </summary>
+                                            <ul className="menu  gap-2 dropdown-content z-50 bg-base-100 text-[16px] hover:border-2 hover:border-black bg-white text-black cursor-pointer hover:text-green-500 rounded-box w-52 p-2 shadow hidden group-hover:block absolute">
+                                                <li>
+                                                    <a>
+                                                        Knoledge Hub
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                        Case Study
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                        Blog
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                        Help
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                        API Docs
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                        FAQs
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                        Location
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                        Roadmaps
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </ul>
                                 </nav>
                             </div>
@@ -61,7 +108,54 @@ const NavBar = () => {
                                     <li><a className="transition hover:text-gray-400" href="#">Status Page</a></li>
                                     <li><a className="transition hover:text-gray-400" href="#">Pricing</a></li>
                                     <li><a className="transition hover:text-gray-400" href="#">Enterprise</a></li>
-                                    <li><a className="transition hover:text-gray-400" href="#">Resources</a></li>
+                                    {/* <li><a className="transition hover:text-gray-400" href="#">Resources</a></li> */}
+                                    <div className="relative group">
+                                    <summary style={{ listStyle: "none" }} className="cursor-pointer text-white hover:text-blue-600">
+                                                Resourses
+                                            </summary>
+                                        <ul className="menu  gap-2 dropdown-content z-50  text-[16px] hover:border-2 hover:border-black bg-white text-black cursor-pointer hover:text-green-500 rounded-box w-52 p-2 shadow hidden group-hover:block absolute">
+                                        <li>
+                                                <a>
+                                                    Knoledge Hub
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    Case Study
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    Blog
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    Help
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    API Docs
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    FAQs
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    Location
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    Roadmaps
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </ul>
                             </nav>
                         </div>
