@@ -17,7 +17,7 @@ const MobileShow = () => {
                 {/* text content  */}
 
                 <div className="w-full md:w-1/2 text-center space-y-12 md:text-left">
-                    <h2 className="text-5xl font-bold">
+                    <h2 className="md:text-5xl text-3xl font-bold">
                         <span className="text-[#3bd671]">Keep monitoring</span> <br /> everywhere you go.
                     </h2>
                     <p className="text-xl mt-2">
