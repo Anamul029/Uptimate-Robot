@@ -6,11 +6,11 @@ import uptimeUser from '../../images/uptimeUsers.png'
 
 const MobileShow = () => {
     return (
-        <>
+        <div className='space-y-12 lg:space-y-0'>
             <section className="relative max-w-[1900px] px-[10%] mx-auto md:flex flex-col lg:flex-row items-center justify-between min-h-screen">
 
                 <div className="w-full md:w-1/2 flex justify-center">
-                    <div className="absolute top-[8vw] w-[500px] h-[500px] bg-[#3bd671] rounded-full"></div>
+                    <div className="absolute top-[8vw] lg:w-[500px] lg:h-[500px] bg-[#3bd671] rounded-full"></div>
                     <img src={uptimeMobile} data-aos="fade-up" alt="Monitoring App" className="relative z-10 w-[90%]" />
                 </div>
 
@@ -41,17 +41,17 @@ const MobileShow = () => {
                 </div>
             </section>
 
-            <section className="relative max-w-[1900px] px-[10%] border-t-1 border-t-gray-600 mx-auto md:flex flex-col lg:flex-row-reverse items-center justify-between min-h-screen">
+            <section className="relative max-w-[1900px] px-[10%] border-t-1 border-t-gray-600 mx-auto md:flex flex-col lg:flex-row-reverse items-center justify-between min-h-screen ">
 
                 <div className="w-full md:w-1/2 flex justify-center">
-                    <div className="absolute top-[8vw] w-[450px] h-[450px] bg-[#3bd671] rounded-full"></div>
-                    <img src={uptimeVoice} alt="Monitoring App" data-aos="fade-up" className="relative z-10 w-full shadow-lg" />
+                    <div className="absolute hidden lg:block top-[8vw] w-[450px] h-[450px] bg-[#3bd671] rounded-full"></div>
+                    <img src={uptimeVoice} alt="Monitoring App" data-aos="fade-up" className="mt-12 lg:mt-0 relative z-10 w-full shadow-lg" />
                 </div>
 
                 {/* text content  */}
 
-                <div className="w-full md:w-1/2 text-center space-y-12 md:text-left">
-                    <h2 className="text-5xl font-bold">
+                <div className="w-full mt-8 lg:mt-0 md:w-1/2 text-center space-y-12 md:text-left">
+                    <h2 className="text-3xl lg:text-5xl font-bold">
                         Inform your <br /> customers about <br />incidents with  <br />
                         <span className='text-[#3bd671]'> status pages.</span>
                     </h2>
@@ -76,14 +76,14 @@ const MobileShow = () => {
             <section className="relative max-w-[1900px] px-[10%] border-t-1 border-t-gray-600 mx-auto md:flex flex-col lg:flex-row items-center justify-between gap-10 min-h-screen">
 
                 <div className="w-full md:w-1/2 flex justify-center">
-                    <div className="absolute top-[8vw] w-[450px] h-[450px] bg-[#3bd671] rounded-full"></div>
-                    <img src={uptimeUser} alt="Monitoring App" data-aos="fade-up" className="relative z-10 w-[90%] left-[8%] shadow-lg" />
+                    <div className="hidden lg:block absolute top-[8vw] w-[450px] h-[450px] bg-[#3bd671] rounded-full"></div>
+                    <img src={uptimeUser} alt="Monitoring App" data-aos="fade-up" className="relative my-8 lg:my-0 z-10 w-[90%] lg:left-[8%] shadow-lg" />
                 </div>
 
                 {/* text content  */}
 
                 <div className="w-full md:w-1/2 text-center space-y-12 md:text-left">
-                    <h2 className="text-5xl font-bold">
+                    <h2 className="text-3xl lg:text-5xl font-bold">
                         Add your <span className='text-[#3bd671]'> team members</span> <br /> to keep them notified.
                     </h2>
                     <p className="text-xl mt-2">
@@ -92,7 +92,7 @@ const MobileShow = () => {
                 </div>
             </section>
 
-        </>
+        </div>
     );
 };
 

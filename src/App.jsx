@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000,  // Adjust as needed
+      duration: 1500,  // Adjust as needed
       once: true,      // Animation runs only once
       offset: 100,     // Start animation 100px before reaching element
     });
