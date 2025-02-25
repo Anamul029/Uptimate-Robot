@@ -1,6 +1,7 @@
+
 const Card = () => {
     return (
-        <div className=" rounded-2xl overflow-hidden shadow-2xl bg-[#ffffff] p-5">
+        <div data-aos='fade-up' className=" rounded-2xl  overflow-hidden shadow-2xl bg-[#ffffff] p-5">
             <img className="w-34 object-cover" src="https://uptimerobot.com/assets/images/monitor-icons/website-monitoring.svg" alt="Card Image" />
             <div className="px-4 py-3">
                 <h2 className="text-3xl font-bold text-gray-800">Website monitoring</h2>
