@@ -1,7 +1,7 @@
 import banner from '../../images/Screenshot (511).png'
 const Banner = () => {
     return (
-        <div className="bg-[#131a26]  max-w-[1900px] max-h-screen mx-auto  px-[10%]">
+        <div className="bg-[#131a26]  max-w-[1900px]  mx-auto  px-[10%]">
 
             <div className="  mx-auto">
                 <div
