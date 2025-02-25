@@ -28,7 +28,7 @@ const Banner = () => {
                                 <div className="mt-8 flex flex-wrap gap-4 text-center">
                                     <a
                                         href="#"
-                                        className="block w-full rounded-4xl bg-[#3bd671] px-12 py-4 text-xl font-medium text-white shadow-sm  focus:ring-3 focus:outline-hidden sm:w-auto"
+                                        className="block w-full rounded-4xl bg-[#3bd671] md:px-12 md:py-4 px-3 py-2 text-xl font-medium text-white shadow-sm  focus:ring-3 focus:outline-hidden sm:w-auto"
                                     >
                                         Start monitoring in 30 seconds
                                     </a>
