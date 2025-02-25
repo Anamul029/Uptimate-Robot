@@ -177,7 +177,7 @@ const Pricing = () => {
 
                                 </li>
                             </ul>
-                            <button type="button" className="w-full mt-6 px-4 py-2 text-sm text-white bg-[#3bd671]  rounded-3xl">Subscribe now</button>
+                            <button type="button" className="w-full mt-6 px-4 py-2 text-sm text-white bg-[#3bd671] hover:bg-green-500 cursor-pointer  rounded-3xl">Subscribe now</button>
 
                         </div>
                     </div>
@@ -244,7 +244,7 @@ const Pricing = () => {
 
                                 </li>
                             </ul>
-                            <button type="button" className="w-full mt-6 px-4 py-2 text-sm text-white bg-[#3bd671]  rounded-3xl">Subscribe now</button>
+                            <button type="button" className="w-full mt-6 px-4 py-2 text-sm text-white bg-[#3bd671] hover:bg-green-500 cursor-pointer rounded-3xl">Subscribe now</button>
 
                         </div>
                     </div>
@@ -311,7 +311,7 @@ const Pricing = () => {
 
                                 </li>
                             </ul>
-                            <button type="button" className="w-full mt-6 px-4 py-2 text-sm text-white bg-[#3bd671]   rounded-3xl">Subscribe now</button>
+                            <button type="button" className="w-full mt-6 px-4 py-2 text-sm text-white bg-[#3bd671] hover:bg-green-600 cursor-pointer   rounded-3xl">Subscribe now</button>
 
                         </div>
                     </div>

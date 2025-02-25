@@ -17,7 +17,7 @@ const Monitoring = () => {
                 <WebsiteMonitoringCard></WebsiteMonitoringCard>
             </div>
             <div className="flex justify-center items-center">
-                <button className="mt-4 font-semibold bg-[#3bd671] text-white py-2 px-4 rounded-4xl shadow-[0px_4px_10px_rgba(0,0,0,0.2)]   transition-all">
+                <button className="mt-4 font-semibold bg-[#3bd671] hover:bg-green-500 cursor-pointer text-white py-2 px-4 rounded-4xl shadow-[0px_4px_10px_rgba(0,0,0,0.2)]   transition-all">
                     Start Monitoring in 30 seconds
                 </button>
             </div>
