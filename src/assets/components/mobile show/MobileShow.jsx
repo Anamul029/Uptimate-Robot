@@ -11,7 +11,7 @@ const MobileShow = () => {
 
                 <div className="w-full md:w-1/2 flex justify-center">
                     <div className="absolute top-[8vw] w-[500px] h-[500px] bg-[#3bd671] rounded-full"></div>
-                    <img src={uptimeMobile} alt="Monitoring App" className="relative z-10 w-[90%]" />
+                    <img src={uptimeMobile} data-aos="fade-up" alt="Monitoring App" className="relative z-10 w-[90%]" />
                 </div>
 
                 {/* text content  */}
