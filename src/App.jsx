@@ -12,6 +12,8 @@ import Footer from "./assets/components/Footer/Footer"
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import InformCustomer from "./assets/components/Inform/InformCustomer"
+import AddMembers from "./assets/components/AddTeamMembers/AddMembers"
 
 function App() {
 
@@ -32,6 +34,8 @@ function App() {
       <AdcancedFeatured></AdcancedFeatured>
       <Social />
       <MobileShow />
+      <InformCustomer/>
+      <AddMembers/>
       <Testimonials />
       <Pricing />
       <FreeAccount />
