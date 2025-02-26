@@ -4,16 +4,16 @@ const Banner = () => {
         <div className="bg-[#131a26]  max-w-[1900px]  mx-auto  px-[10%]">
 
             <div className="  mx-auto">
-                <div
+                {/* <div
                     className="relative  bg-cover bg-center bg-no-repeat"
-                >
+                > */}
                     {/* <div
                         className="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
                     ></div> */}
 
-                    <div className="flex flex-col md:flex-row items-center">
+                    <div className="flex flex-col md:flex-row items-center md:gap-15">
                         <div
-                            className="relative  mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center "
+                            className="lg:ml-[10%] py-32 sm:px-6 lg:flex lg:h-screen lg:items-center "
                         >
                             <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
                                 <h1 className="text-3xl font-extrabold text-white sm:text-5xl">
@@ -38,15 +38,15 @@ const Banner = () => {
                             </div>
                         </div>
                         {/* image div */}
-                        <div className=' w-[450px]'>
+                        <div className='md:w-[450px]'>
                             <img className='h-[350px]' src={banner} alt="" />
                         </div>
                     </div>
                 </div>
-                <p className="text-center text-white relative text-xl bottom-[80px]">Currently, we keep an eye on <strong>7,570,000</strong> monitors for more than <strong>2,100,000</strong> users and companies.                </p>
+                <p className="text-center  text-white relative text-xl py-8 md:py-0 md:bottom-[80px]">Currently, we keep an eye on <strong>7,570,000</strong> monitors for more than <strong>2,100,000</strong> users and companies.                </p>
 
             </div>
-        </div>
+        // </div>
     );
 };
 
