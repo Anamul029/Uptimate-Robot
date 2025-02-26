@@ -1,4 +1,4 @@
-import banner from '../../images/Screenshot (511).png'
+import banner from '../../images/banner.png'
 const Banner = () => {
     return (
         <div className="bg-[#131a26]  max-w-[1900px]  mx-auto  px-[10%]">
@@ -18,17 +18,17 @@ const Banner = () => {
                             <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
                                 <h1 className="text-3xl font-extrabold text-white sm:text-5xl">
                                     The world's leading
-                                    <strong className="block font-extrabold text-[#3bd671]"> uptime monitoring <span className="text-white">service.</span> </strong>
+                                    <strong className="block font-extrabold text-teal-600"> uptime monitoring <span className="text-white">service.</span> </strong>
                                 </h1>
 
                                 <p className="mt-4 md:font-bold max-w-lg text-white sm:text-xl/relaxed">
-                                    Get 50 monitors with 5-minute checks <span className="text-[#3bd671]">totally FREE.</span>
+                                    Get 50 monitors with 5-minute checks <span className="text-teal-600">totally FREE.</span>
                                 </p>
 
                                 <div className="mt-8 flex flex-wrap gap-4 text-center">
                                     <a
                                         href="#"
-                                        className="block w-full rounded-4xl bg-[#3bd671] md:px-12 md:py-4 px-3 py-2 text-xl font-medium text-white shadow-sm  focus:ring-3 focus:outline-hidden sm:w-auto"
+                                        className="block w-full rounded-4xl bg-teal-600 hover:bg-blue-400 md:px-12 md:py-4 px-3 py-2 text-xl font-medium text-white shadow-sm  focus:ring-3 focus:outline-hidden sm:w-auto"
                                     >
                                         Start monitoring in 30 seconds
                                     </a>
@@ -38,8 +38,8 @@ const Banner = () => {
                             </div>
                         </div>
                         {/* image div */}
-                        <div className=''>
-                            <img className='h-[400px]' src={banner} alt="" />
+                        <div className=' w-[450px]'>
+                            <img className='h-[350px]' src={banner} alt="" />
                         </div>
                     </div>
                 </div>

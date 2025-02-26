@@ -63,7 +63,7 @@ const Social = () => {
     ]
 
     return (
-        <section className="relative max-w-[1900px] mx-auto py-[10%] mt-16 bg-[#131a26] text-white">
+        <section className=" max-w-[1900px] mx-auto py-[10%] mt-16 bg-[#131a26] text-white">
 
             <div className=' lg:ml-[15vw]'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-[2%] items-center'>
@@ -108,8 +108,8 @@ const Social = () => {
 
             {/* overlay green  */}
 
-            <div className='absolute hidden lg:block top-0 right-0 h-full w-1/7 bg-[#3bd671] rounded-l-full rounded-[100%]'>
-            </div>
+            {/* <div className='absolute hidden lg:block top-0 right-0 h-full w-1/7 bg-[#3bd671] rounded-l-full rounded-[100%]'>
+            </div> */}
         </section >
     );
 };

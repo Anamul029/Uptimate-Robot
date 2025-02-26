@@ -6,12 +6,12 @@ const Footer = () => {
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div>
                         <div>
-                            <button className="font-semibold text-3xl cursor-pointer">.UptimeRobot</button>
+                            <button className="font-semibold text-3xl cursor-pointer">Monitoring Company</button>
                         </div>
                         <h1 className="font-semibold text-lg mt-2">Downtime happens. Get notified!</h1>
 
                         <p className="mt-4 max-w-xs ">
-                            Join more than 2,100,000 happy users! UptimeRobot is one of the most popular website monitoring services in the world.
+                            Join more than 2,100,000 happy users! Monitoring company is one of the most popular website monitoring services in the world.
                         </p>
 
                         <ul className="mt-8 flex gap-6">
@@ -120,12 +120,7 @@ const Footer = () => {
                                 <li>
                                     <a href="#" className=" transition hover:opacity-75">TCP monitoring </a>
                                 </li>
-                                <li>
-                                    <a href="#" className=" transition hover:opacity-75">Cron job monitoring </a>
-                                </li>
-                                <li>
-                                    <a href="#" className=" transition hover:opacity-75">Keyword monitoring </a>
-                                </li>
+                               
                             </ul>
                         </div>
                         {/* 2nd part */}
@@ -141,15 +136,8 @@ const Footer = () => {
                                     <a href="#" className=" transition hover:opacity-75">Blog </a>
                                 </li>
 
-                                <li>
-                                    <a href="#" className=" transition hover:opacity-75">Affiliate program </a>
-                                </li>
-                                <li>
-                                    <a href="#" className=" transition hover:opacity-75">Referral program </a>
-                                </li>
-                                <li>
-                                    <a href="#" className=" transition hover:opacity-75">Non profit & charities 🤲</a>
-                                </li>
+                                
+                               
                                 <li>
                                     <a href="#" className=" transition hover:opacity-75">Terms / Privacy </a>
                                 </li>
@@ -186,18 +174,8 @@ const Footer = () => {
                                 <li>
                                     <a href="#" className=" transition hover:opacity-75">Locations & IPs </a>
                                 </li>
-                                <li>
-                                    <a href="#" className=" transition hover:opacity-75">Comparisons </a>
-                                </li>
-                                <li>
-                                    <a href="#" className=" transition hover:opacity-75"> Case studies </a>
-                                </li>
-                                <li>
-                                    <a href="#" className=" transition hover:opacity-75"> Knowledge hub </a>
-                                </li>
-                                <li>
-                                    <a href="#" className=" transition hover:opacity-75"> Roadmap </a>
-                                </li>
+                               
+                             
                             </ul>
                         </div>
 
