@@ -14,6 +14,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import InformCustomer from "./assets/components/Inform/InformCustomer"
 import AddMembers from "./assets/components/AddTeamMembers/AddMembers"
+import Contact from "./assets/components/Contact/Contact"
+import Faq from "./assets/components/FAQ/FAQ"
 
 function App() {
 
@@ -29,16 +31,18 @@ function App() {
     <>
       <NavBar></NavBar>
       <Banner></Banner>
-      <Logo></Logo>
+      {/* <Logo></Logo> */}
       <Monitoring></Monitoring>
       <AdcancedFeatured></AdcancedFeatured>
-      <Social />
+      {/* <Social /> */}
       <MobileShow />
       <InformCustomer/>
       <AddMembers/>
-      <Testimonials />
       <Pricing />
-      <FreeAccount />
+      <Testimonials />
+      <Faq/>
+      {/* <FreeAccount /> */}
+      <Contact/>
       <Footer />
     </>
   )
